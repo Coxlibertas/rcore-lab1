@@ -4,15 +4,15 @@ BASE_ADDRESS = 0x80200000;
 
 SECTIONS
 {
-    /*‘.’ 是一个特殊的符号，它是定位器，一个位置指针，指向程序地址空间内的某位置。*/
+    /*‘.’ 是一个特殊的符号，它是定位器，一个位置指针，指向程序地址空间内的某位置*/
     . = BASE_ADDRESS; /*定位器指向0x80200000*/
     skernel = .; /*skernel指向0x80200000*/
 
     stext = .; /*stext指向0x80200000*/
 
     .text : {
-        *(.text.entry) /*匹配以.text.entry为后缀的文件*/
-        *(.text .text.*) /*匹配文件名中含有.text.text的文件*/
+        *(.text.entry) /*匹配以.text.entry为后缀的段*/
+        *(.text .text.*) /*匹配文件名中含有.text.text的段*/
     }
 定位器定位到下一个4字节对齐的地址点
     . = ALIGN(4K); /*定位器定位到下一个4k字节对齐的地址点*/
