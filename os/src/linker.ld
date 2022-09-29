@@ -14,7 +14,7 @@ SECTIONS
         *(.text.entry) /*匹配以.text.entry为后缀的段*/
         *(.text .text.*) /*匹配文件名中含有.text.text的段*/
     }
-定位器定位到下一个4字节对齐的地址点
+
     . = ALIGN(4K); /*定位器定位到下一个4k字节对齐的地址点*/
     etext = .;
     srodata = .;

@@ -1,1 +1,1 @@
-/home/alex/os/target/debug/os: /home/alex/os/src/main.rs
+/home/alex/workspace/rcore/os/target/debug/os: /home/alex/workspace/rcore/os/src/main.rs

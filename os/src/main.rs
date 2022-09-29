@@ -1,11 +1,25 @@
+#![no_std]
+#![no_main]
+#![feature(panic_info_message)]
+
+use core::arch::global_asm;
+
+#[macro_use]
+mod console;
+mod lang_items;
+mod sbi;
+
+global_asm!(include_str!("entry.asm"));
+
 #[no_mangle]
 pub fn rust_main() -> ! {
     clear_bss();
-    loop {}
+    println!("Hello, world!");
+    panic!("Shutdown machine!");
 }
 
 fn clear_bss() {
-    extern "C" { //调用外部语言，这里是引用一个外部的 C 函数接口
+    extern "C" {
         fn sbss();
         fn ebss();
     }

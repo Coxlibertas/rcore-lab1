@@ -1,4 +1,4 @@
-.section .text.entry
+    .section .text.entry
     .globl _start /*.global关键字用来让一个符号对链接器可见*/
 _start:
     la sp, boot_stack_top

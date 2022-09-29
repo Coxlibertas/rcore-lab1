@@ -1,1 +1,1 @@
-/home/alex/os/target/riscv64gc-unknown-none-elf/release/os: /home/alex/os/src/entry.asm /home/alex/os/src/lang_items.rs /home/alex/os/src/main.rs
+/home/alex/workspace/rcore/os/target/riscv64gc-unknown-none-elf/release/os: /home/alex/workspace/rcore/os/src/console.rs /home/alex/workspace/rcore/os/src/entry.asm /home/alex/workspace/rcore/os/src/lang_items.rs /home/alex/workspace/rcore/os/src/main.rs /home/alex/workspace/rcore/os/src/sbi.rs
