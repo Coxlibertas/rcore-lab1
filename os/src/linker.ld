@@ -1,19 +1,21 @@
-OUTPUT_ARCH(riscv)
-ENTRY(_start)
+OUTPUT_ARCH(riscv)  /*输出架构为riscv*/
+ENTRY(_start) /*入口程序地址*/
 BASE_ADDRESS = 0x80200000;
 
 SECTIONS
 {
-    . = BASE_ADDRESS;
-    skernel = .;
+    /*‘.’ 是一个特殊的符号，它是定位器，一个位置指针，指向程序地址空间内的某位置。*/
+    . = BASE_ADDRESS; /*定位器指向0x80200000*/
+    skernel = .; /*skernel指向0x80200000*/
 
-    stext = .;
+    stext = .; /*stext指向0x80200000*/
+
     .text : {
-        *(.text.entry)
-        *(.text .text.*)
+        *(.text.entry) /*匹配以.text.entry为后缀的文件*/
+        *(.text .text.*) /*匹配文件名中含有.text.text的文件*/
     }
-
-    . = ALIGN(4K);
+定位器定位到下一个4字节对齐的地址点
+    . = ALIGN(4K); /*定位器定位到下一个4k字节对齐的地址点*/
     etext = .;
     srodata = .;
     .rodata : {
@@ -42,7 +44,7 @@ SECTIONS
     ebss = .;
     ekernel = .;
 
-    /DISCARD/ : {
-        *(.eh_frame)
+    /DISCARD/ : { /* /DISCARD/段中的文件会被抛弃，不会链接到目标文件 */
+        *(.eh_frame) /*.eh_frame段用于处理异常，它产生描述如何展开堆栈的表 */
     }
 }
