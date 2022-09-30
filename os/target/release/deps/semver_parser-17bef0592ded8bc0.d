@@ -1,0 +1,11 @@
+/home/alex/workspace/rcore/os/target/release/deps/semver_parser-17bef0592ded8bc0.rmeta: /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/lib.rs /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/version.rs /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/range.rs /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/common.rs /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/recognize.rs
+
+/home/alex/workspace/rcore/os/target/release/deps/libsemver_parser-17bef0592ded8bc0.rlib: /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/lib.rs /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/version.rs /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/range.rs /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/common.rs /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/recognize.rs
+
+/home/alex/workspace/rcore/os/target/release/deps/semver_parser-17bef0592ded8bc0.d: /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/lib.rs /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/version.rs /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/range.rs /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/common.rs /home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/recognize.rs
+
+/home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/lib.rs:
+/home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/version.rs:
+/home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/range.rs:
+/home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/common.rs:
+/home/alex/.cargo/registry/src/mirrors.ustc.edu.cn-61ef6e0cd06fb9b8/semver-parser-0.7.0/src/recognize.rs:
